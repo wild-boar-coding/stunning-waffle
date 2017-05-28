@@ -2,12 +2,20 @@
   "name": "editor",
   "version": "0.1.0",
   "private": true,
+  "xo": {
+    "extends": "paprika",
+    "rules": {
+      "semi": ["error", "always"]
+    }
+  },
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
-    "react-scripts": "1.0.3"
+    "eslint-config-paprika": "^1.0.0",
+    "react-scripts": "1.0.3",
+    "xo": "^0.18.2"
   },
   "scripts": {
     "start": "react-scripts start",
