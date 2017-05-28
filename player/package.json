@@ -1,0 +1,16 @@
+{
+  "name": "player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "player.js",
+  "scripts": {
+    "dev": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^5.1.5"
+  }
+}
