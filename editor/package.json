@@ -3,9 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "xo": {
-    "extends": "paprika",
+    "extends": ["xo-react", "paprika"],
     "rules": {
-      "semi": ["error", "always"]
+      "semi": [
+        "error",
+        "always"
+      ],
+      "import/no-unassigned-import": "off",
+      "unicorn/no-new-buffer": "off",
+      "unicorn/filename-case": "off",
+      "unicorn/custom-error-definition": "off",
+      "unicorn/no-array-instanceof": "off",
+      "unicorn/catch-error-name": "off",
+      "unicorn/no-process-exit": "off",
+      "unicorn/throw-new-error": "off",
+      "unicorn/number-literal-case": "off",
+      "unicorn/prefer-starts-ends-with": "off",
+      "unicorn/prefer-type-error": "off",
+      "unicorn/explicit-length-check": "off",
+      "unicorn/no-abusive-eslint-disable": "off",
+      "react/jsx-indent": ["warn", 2],
+      "react/jsx-tag-spacing": "off"
     }
   },
   "dependencies": {
@@ -14,6 +32,9 @@
   },
   "devDependencies": {
     "eslint-config-paprika": "^1.0.0",
+    "eslint-config-xo": "^0.18.2",
+    "eslint-config-xo-react": "^0.12.0",
+    "eslint-plugin-react": "^7.0.1",
     "react-scripts": "1.0.3",
     "xo": "^0.18.2"
   },
